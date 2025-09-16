@@ -10,7 +10,7 @@
     "content_scripts": [{
       "css": ["styles.css"],
       "js": ["content.js"],
-      "matches": ["file://*"]
+      "matches": ["<all_urls>"]
     }],
     
     "author": "scopweb"
