@@ -11,8 +11,10 @@ document.addEventListener('click', function(event) {
 
 // If current page is a file:// URL, apply styling and checks
 if (window.location.protocol === 'file:') {
-  // Check if the folder exists by looking for file listing elements
-  const hasFileListing = document.querySelector('table') || document.querySelectorAll('a').length > 0;
+  document.body.classList.add('efb-body');
+
+  // Check if the folder exists by looking for the directory listing table
+  const hasFileListing = document.querySelector('table');
 
   // If no file listing is found, show a warning
   if (!hasFileListing) {

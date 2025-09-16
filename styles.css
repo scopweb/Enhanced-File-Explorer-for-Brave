@@ -1,18 +1,12 @@
-* {
-  font-size: 1.05em !important;
-  color: #ffffff !important;
-  font-family: "Montserrat";
-  font-weight: 550;
-}
-
-body {
+.efb-body {
   background-color: #ffffff;
   margin-left: 7% !important;
   margin-right: 7% !important;
   margin-bottom: 5% !important;
+  font-family: "Montserrat";
 }
 
-h1 {
+.efb-body h1 {
   font-size: 1.66em !important;
   color: #1c1c1c !important;
   font-weight: 800;
@@ -26,15 +20,15 @@ h1 {
   display: block !important;
 }
 
-a:link {
+.efb-body a:link {
   color: #1c1c1c !important;
 }
 
-a:visited {
+.efb-body a:visited {
   color: #1c1c1c !important;
 }
 
-table tr:first-child th {
+.efb-body table tr:first-child th {
   background: #f4f6fb !important;
   font-weight: 900;
   padding: 4px 6px;
@@ -44,7 +38,7 @@ table tr:first-child th {
   text-align: center !important;
 }
 
-#nameColumnHeader {
+.efb-body #nameColumnHeader {
   background: #f4f6fb !important;
   font-weight: 900;
   padding: 4px 6px;
@@ -54,28 +48,31 @@ table tr:first-child th {
   text-align: left !important;
 }
 
-table {
+.efb-body table {
   border-collapse: collapse;
   background-color: #ffffff;
   table-layout: auto !important;
   width: 100% !important;
 }
 
-td {
+.efb-body td {
   width: 70% !important;
   max-width: 70% !important;
   white-space: nowrap !important;
   overflow: hidden !important;
   overflow-wrap: break-word !important;
   padding: 7px;
+  color: #1c1c1c !important;
+  font-weight: 550;
 }
 
-th {
+.efb-body th {
   cursor: pointer;
   background-color: #a9a9a9;
+  font-weight: 550;
 }
 
-table.icon-dir {
+.efb-body table.icon-dir {
   width: 70% !important;
   max-width: 70% !important;
   overflow-wrap: break-word !important;
@@ -83,7 +80,7 @@ table.icon-dir {
   overflow: hidden !important;
 }
 
-td.detailsColumn {
+.efb-body td.detailsColumn {
   color: #1c1c1c !important;
   -webkit-padding-start: 0.5em !important;
   text-align: center !important;
@@ -91,38 +88,38 @@ td.detailsColumn {
   width: 30% !important;
 }
 
-a.icon {
+.efb-body a.icon {
   -webkit-padding-start: 1.7em !important;
   text-decoration: none;
 }
 
-a.icon:hover {
+.efb-body a.icon:hover {
   color: #aaaaaa !important;
   transition: 0.2s !important;
   text-decoration: none !important;
 }
 
-tr:nth-child(even) {
+.efb-body tr:nth-child(even) {
   background-color: #f4f6fb;
 }
 
-a.file {
+.efb-body a.file {
   background: url("images/file-icon.png") left top no-repeat !important;
   background-size: 26px 26px !important;
 }
 
-a.dir {
+.efb-body a.dir {
   background: url("images/dir-icon.png") left top no-repeat !important;
   background-size: 26px 26px !important;
 }
 
-a.up {
+.efb-body a.up {
   background: left top no-repeat !important;
   background-image: url("images/up-icon.png") !important;
   background-size: 26px 26px !important;
 }
 
-#parentDirText {
+.efb-body #parentDirText {
   font-size: 0.8em !important;
   font-weight: bold;
   color: #101010 !important;
