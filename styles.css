@@ -107,18 +107,18 @@ tr:nth-child(even) {
 }
 
 a.file {
-  background: url("https://i.imgur.com/FYrv7mJ.png") left top no-repeat !important;
+  background: url("images/file-icon.png") left top no-repeat !important;
   background-size: 26px 26px !important;
 }
 
 a.dir {
-  background: url("https://i.imgur.com/bHGgzMq.png") left top no-repeat !important;
+  background: url("images/dir-icon.png") left top no-repeat !important;
   background-size: 26px 26px !important;
 }
 
 a.up {
   background: left top no-repeat !important;
-  background-image: url("https://i.imgur.com/p2y4Vnc.png") !important;
+  background-image: url("images/up-icon.png") !important;
   background-size: 26px 26px !important;
 }
 
