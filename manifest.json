@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    
+    "name": "Enhanced File Explorer for Brave", 
+    
+    "version": "3.0.0",
+    
+    "description": "Enhanced File Explorer for Brave",
+    
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["file://*"]
+    }],
+    
+    "author": "scopweb"
+}
